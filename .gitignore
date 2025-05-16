@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Virtual Environment
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+*.env
+
+# VSCode settings
+.vscode/
+
+# MacOS
+.DS_Store
+
+# Logs and runtime
+*.log
+*.pid
+*.gz
+*.sqlite3
+
+# Data
+data/raw/
+data/processed/
+*.csv
+*.parquet
+
+# Power BI
+*.pbix
+
+# Model and output
+*.pkl
+*.h5
+*.joblib
+*.onnx
+
+# Configuration and secrets
+config/.env
+config/config.yaml
+
+# AWS credentials (should not be versioned)
+.aws/
+
+# Pip environment
+requirements.txt
+Pipfile.lock
+poetry.lock
+
+# Testing
+htmlcov/
+.tox/
+coverage.xml
+*.cover
+*.py,cover
+.cache
+nosetests.xml
+test-output/
+
+# Reports
+reports/
+*.md~
+*.bak
