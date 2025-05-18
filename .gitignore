@@ -55,6 +55,12 @@ requirements.txt
 Pipfile.lock
 poetry.lock
 
+# docker
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+
 # Testing
 htmlcov/
 .tox/
